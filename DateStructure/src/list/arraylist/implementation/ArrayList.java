@@ -28,4 +28,14 @@ public class ArrayList {
     	
     } // end of add
     
+    public Object get(int index) {
+    	return elementData[index];
+    	// arrayList의 장점이 get에서 나타난다.
+    	// arrayList는 내부적으로 배열을 사용한다. 
+    	// 그리고 그 배열에다가 index값을 줘서 특정한 위치에 있는 element를 가져오기 때문에
+    	// 배열의 인덱스로 접근한다는 장점이 생긴다.
+    	// 즉 arrayList로 구현한 경우, 특정한 위치에 있는 데이터를 가져오는게 굉장히 빠르다. 
+    }
+    
+    
 } // end of class
